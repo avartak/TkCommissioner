@@ -6,7 +6,7 @@
 #include <QPixmap>
 #include <QSplashScreen>
 #include "Debug.h"
-
+#include <unistd.h>
 void printAsciiStart() {
     std::cout   << "\n"
                 << "   \e[1;30m********************************************************************\e[0m\n"
